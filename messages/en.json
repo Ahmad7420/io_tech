@@ -1,0 +1,66 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "HeaderNavigation": {
+    "home": "home",
+    "about_us": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "our_team": "Our Team",
+    "contact_us": " Contact Us",
+    "appointment": "Book Appointment",
+    "read_more": "Read More"
+  },
+  "OurTeam": {
+    "title": "Our Team",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s"
+  },
+  "clients": {
+    "title": "What our clients are saying",
+    "description": "Our clients range from individual investors, to local, international as well as fortune 500 companies.Our clients range from individual investors, to local, international as well as fortune 500 companies."
+  },
+  "Services": {
+    "title": "Services",
+    "1": "Legal Construction Services",
+    "2": "...... and Defense in All Cases",
+    "3": "Services for Companies and Institutions",
+    "4": "Establishing National and Foreign Companies",
+    "5": "Foreign Investment Services",
+    "6": "Banks and Financial Institutions",
+    "7": "Arbitration",
+    "8": "Commercial Agencies",
+    "9": "Contracts",
+    "10": "Corporate and Government services",
+    "11": "Intellectual Property",
+    "12": "Supporting Vision 2030",
+    "13": "Notarization",
+    "14": "Companies and Liquidation",
+    "15": "Corporate Restructuring and Reorganization",
+    "16": "Estates",
+    "17": "Insurance",
+    "18": "Internal Regulations for Companies"
+  },
+  "ServicePage": {
+    "back": "Back",
+    "title": "Legal Consultation Services",
+    "description": " Law Firm is one of the leading legal offices that offer exceptional advisory services for both individuals and companies Our mission is to provide comprehensive and specialized legal support to meet our clients&apos; needs and offer the best legal solutions in various cases and legal fields. We provide our legal consultations services as follow:",
+    "subTitle1": " General Legal Consultations",
+    "description1": "Here we provide comprehensive legal consultations covering all legal aspects that our clients may encounter in their daily lives or business activities. Our goal is to offer accurate legal advice based on a deep understanding of local and international laws.",
+    "subTitle2": "Corporate Legal Consultations",
+    "description2": " We at the Law Firm understand the importance of legal consultations for companies in building and enhancing their businesses.",
+    "subTitle2_1": "Our advisory services about:",
+    "description2_1": "Establishing and registering companies.",
+    "description2_2": "All kinds of contracts and agreements.",
+    "description2_3": "Commercial disputes.",
+    "description2_4": "Compliance with local and international laws and regulations.",
+    "subTitle3": "Individual Legal Consultations",
+    "description3": "  Law Firm offers customized advisory services for individuals, including:",
+    "description3_1": " Family issues such as divorce, alimony, and custody.",
+    "description3_2": "Real estate matters like buying, selling, and renting properties.",
+    "description3_3": "Employment issues such as hiring and wrongful termination.",
+    "description3_4": "Criminal cases and defending personal rights.",
+    "footer": " At Law Firm, we aim to provide the best legal services to ensure your rights and offer effective legal solutions. Contact us today to receive professional and comprehensive legal consultation."
+  }
+}

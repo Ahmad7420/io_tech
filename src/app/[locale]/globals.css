@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-dm-sans: var(--font-dm-sans);
+  --font-poppins: var(--font-poppins);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer components {
+  button:hover {
+    cursor: pointer;
+  }
+}
+
+body {
+  background-color: #4b2615;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.swiper-pagination-bullet {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  opacity: 0.7;
+  width: 90px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffffff !important;
+  opacity: 1;
+}
+
+/* Target vertical pagination */
+.mySwiper .swiper-pagination.swiper-pagination-vertical {
+  right: auto !important;
+  left: 5px !important;
+}
+
+.mySwiper .swiper-pagination.swiper-pagination-vertical {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+/* Change arrow color */
+.swiper-button-next,
+.swiper-button-prev {
+  color: red; /* Change this to your desired color */
+  width: 40px; /* Default is 27px; increase for bigger buttons */
+  height: 40px; /* Increase height accordingly */
+}
+
+/* Optionally, change the size of the SVG arrows inside */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 30px; /* Increase or decrease arrow size */
+}
+
+.service-container {
+  background-image: url("/io_tech/public/ServiceBackground.png"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff; /* Optional: Adjust text color for visibility */
+}
